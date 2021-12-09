@@ -1,0 +1,18 @@
+<h2>Data Divisi</h2>
+<br/>
+<br/>
+
+<table class="table table-bordered">
+    <tr>
+        <th>namaDivisi</th>
+        <th>kodeDivisi</th>
+        <th>ketuaDivisi</th>
+    </tr>
+    @foreach($divisi as $d)
+    <tr>
+        <td>{{ $d->namaDivisi }}</td>
+        <td>{{ $d->kodeDivisi }}</td>
+        <td>{{ $d->ketuaDivisi }}</td>
+    </tr>
+    @endforeach
+</table>
